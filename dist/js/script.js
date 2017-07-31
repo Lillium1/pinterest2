@@ -12639,10 +12639,7 @@ $(document).ready(function(){
 		closeOnClick: true,
 		draggable: true
 	})
-
-	$('div#contenedor-ppal').masonry({
-			itemSelector: 'div.thumbnail'
-		})
+	
 });
 /*!
  * Masonry PACKAGED v4.2.0
