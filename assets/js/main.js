@@ -6,11 +6,5 @@ $(document).ready(function(){
 		closeOnClick: true,
 		draggable: true
 	})
-
-	var elem = document.querySelector('#contenedor-ppal');
-	var msnry = new Masonry( elem, {
-	  // options
-	  itemSelector: '.thumbnail',
-	  columnWidth: 200
-	});
+	
 });

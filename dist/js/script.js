@@ -12631,7 +12631,19 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 
+$(document).ready(function(){
+	//side nav bar
+	$('.button-collapse').sideNav({
+		menuWidth: 170,
+		edge: 'left',
+		closeOnClick: true,
+		draggable: true
+	})
 
+	$('div#contenedor-ppal').masonry({
+			itemSelector: 'div.thumbnail'
+		})
+});
 /*!
  * Masonry PACKAGED v4.2.0
  * Cascading grid layout library
