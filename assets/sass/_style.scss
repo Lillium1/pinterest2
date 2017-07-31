@@ -1,3 +1,4 @@
+
 #carousel .container-fluid {
 	width: 1000px;
 }
@@ -94,6 +95,7 @@ header {
 }
 .carousel-inner>.item.active {
 	padding: 0 10px;
+	margin-bottom: 30px;
 	.foto-carousel {
 		display: inline-block;
 		.etiqueta {
@@ -160,9 +162,55 @@ header {
 	}
 }
 
-
-
-
 .img-responsive {
 	display: inline-block;
+}
+
+/********** prueba tarjeta****/
+.thumbnail {
+	background-color: #fff;
+	padding: 10px;
+	border: none;
+	width: 256px;
+	float: left;
+	margin: 10px;
+	img {
+		max-width: 236px;
+		height: auto;
+	}
+	.caption {
+		padding: 0;
+		margin-top: 10px;
+
+		.t1-descrip {
+			width: 155px;
+			display: inline-block;
+			span{
+				font-size: 18px;
+			}
+		}
+		.mg {
+			width: 80px;
+			float: right;
+		}
+		.foto-user {
+			display: inline-block;
+			position: relative;
+			top: -10px;
+			margin-right: 8px;
+			img {
+				width: 36px;
+				height: 36px;
+			}
+		}
+		.userdata {
+
+			display: inline-block;
+
+		}
+	}
+}
+
+.thumbnail:hover {
+	background-color: #ebebeb;
 }
